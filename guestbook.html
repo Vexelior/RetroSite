@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE>Sign My Guestbook!!! - The World Wide Wayback</TITLE>
+<STYLE TYPE="text/css">
+<!--
+blink { animation: blink 1s steps(1) infinite; }
+@keyframes blink { 50% { visibility: hidden; } }
+-->
+</STYLE>
+<SCRIPT LANGUAGE="JavaScript" SRC="js/retro.js"></SCRIPT>
+</HEAD>
+<BODY BGCOLOR="#330066" TEXT="#FFFFFF" LINK="#FFFF00" VLINK="#FFCC66" ALINK="#FF0000" onLoad="gbRender()">
+
+<CENTER>
+<FONT FACE="Comic Sans MS, Arial" SIZE=6 COLOR="#FFFF00"><B>~*~ Sign My Guestbook! ~*~</B></FONT>
+<BR>
+<FONT FACE="Arial" SIZE=3><BLINK>Please</BLINK> let me know you stopped by!!</FONT>
+<BR><BR>
+<IMG SRC="images/flame_bar.gif" WIDTH=600 HEIGHT=16 ALT="-----">
+<BR><BR>
+
+<FORM NAME="gb" onSubmit="return gbSign(this)">
+<TABLE BORDER=3 CELLPADDING=6 CELLSPACING=0 BGCOLOR="#C0C0C0" WIDTH=520>
+<TR><TD COLSPAN=2 BGCOLOR="#000080" ALIGN=CENTER><FONT FACE="Arial" COLOR="#FFFFFF"><B>Fill out the form below!</B></FONT></TD></TR>
+<TR><TD ALIGN=RIGHT><FONT FACE="Arial" SIZE=2 COLOR="#000000"><B>Your Name:</B></FONT></TD>
+<TD><INPUT TYPE="text" NAME="name" SIZE=35 MAXLENGTH=60></TD></TR>
+<TR><TD ALIGN=RIGHT><FONT FACE="Arial" SIZE=2 COLOR="#000000"><B>Homepage URL:</B></FONT></TD>
+<TD><INPUT TYPE="text" NAME="home" SIZE=35 MAXLENGTH=100 VALUE="http://"></TD></TR>
+<TR><TD ALIGN=RIGHT><FONT FACE="Arial" SIZE=2 COLOR="#000000"><B>How did you<BR>find my page?</B></FONT></TD>
+<TD><SELECT NAME="found">
+<OPTION>Surfing the web
+<OPTION>Yahoo!
+<OPTION>AltaVista
+<OPTION>Excite
+<OPTION>A webring
+<OPTION>A friend told me
+<OPTION>Just lucky!
+</SELECT></TD></TR>
+<TR><TD ALIGN=RIGHT VALIGN=TOP><FONT FACE="Arial" SIZE=2 COLOR="#000000"><B>Comments:</B></FONT></TD>
+<TD><TEXTAREA NAME="comments" ROWS=5 COLS=35 WRAP=VIRTUAL></TEXTAREA></TD></TR>
+<TR><TD COLSPAN=2 ALIGN=CENTER>
+<INPUT TYPE="submit" VALUE="Sign Guestbook!">
+<INPUT TYPE="reset" VALUE="Clear Form">
+</TD></TR>
+</TABLE>
+</FORM>
+<FONT FACE="Arial" SIZE=1 COLOR="#CCCCCC">
+Note: our guestbook.pl script is "temporarily" down, so your entry is only saved on your own computer.<BR>
+Nobody else can see it, and nothing is sent anywhere.
+</FONT>
+</CENTER>
+
+<BR>
+<TABLE BORDER=0 WIDTH="100%" CELLPADDING=10><TR><TD>
+<FONT FACE="Arial" SIZE=4 COLOR="#FFFF00"><B>Previous Entries:</B></FONT>
+<BR><BR>
+<DIV ID="gbEntries"></DIV>
+
+<!-- Example entries in the style of a late-90s guestbook. These are made up. -->
+<TABLE WIDTH="100%" BORDER=1 CELLPADDING=6 CELLSPACING=0 BGCOLOR="#FFFFCC"><TR><TD>
+<FONT FACE="Arial" SIZE=2 COLOR="#000000">
+<B>Name:</B> SkaterDude98 &nbsp; <B>Homepage:</B> <A HREF="#" onClick="return false">http://www.geocities.com/(not real)</A><BR>
+<B>Found us via:</B> A webring<BR>
+<B>Date:</B> Sat Mar 14 1998<BR>
+<B>Comments:</B> cool site!!!!! i like the flames. check out my page its about tony hawk and my dog
+</FONT></TD></TR></TABLE><BR>
+
+<TABLE WIDTH="100%" BORDER=1 CELLPADDING=6 CELLSPACING=0 BGCOLOR="#FFFFCC"><TR><TD>
+<FONT FACE="Arial" SIZE=2 COLOR="#000000">
+<B>Name:</B> Webmistress Jen &nbsp; <B>Homepage:</B> <A HREF="#" onClick="return false">http://members.aol.com/(not real)</A><BR>
+<B>Found us via:</B> Yahoo!<BR>
+<B>Date:</B> Tue Nov 11 1997<BR>
+<B>Comments:</B> Love your web-safe color chart, I printed it out and taped it to my monitor :) Could you add a page about JavaScript rollovers?? Want to trade links?
+</FONT></TD></TR></TABLE><BR>
+
+<TABLE WIDTH="100%" BORDER=1 CELLPADDING=6 CELLSPACING=0 BGCOLOR="#FFFFCC"><TR><TD>
+<FONT FACE="Arial" SIZE=2 COLOR="#000000">
+<B>Name:</B> Dave &nbsp; <B>Homepage:</B> (none)<BR>
+<B>Found us via:</B> A friend told me<BR>
+<B>Date:</B> Mon Oct 27 1997<BR>
+<B>Comments:</B> how do you get the words to scroll across the screen like that? it only works for me in internet explorer
+</FONT></TD></TR></TABLE><BR>
+
+<FONT FACE="Arial" SIZE=1 COLOR="#CCCCCC">(The entries above are made-up examples of what 90s guestbook entries looked like.)</FONT>
+</TD></TR></TABLE>
+
+<CENTER>
+<IMG SRC="images/rainbow_bar.gif" WIDTH=600 HEIGHT=8 ALT="==========">
+<BR>
+<FONT FACE="Arial" SIZE=2>
+[ <A HREF="welcome.html">Home</A> |
+<A HREF="history.html">Timeline</A> |
+<A HREF="anatomy.html">Anatomy</A> |
+<A HREF="colors.html">Colors</A> |
+<A HREF="thennow.html">Then vs. Now</A> |
+<A HREF="guestbook.html">Guestbook</A> |
+<A HREF="links.html">Links</A> ]
+</FONT>
+<BR><BR>
+<FONT FACE="Arial" SIZE=1>
+&copy; 1997-2026 The World Wide Wayback.<BR>
+<SCRIPT LANGUAGE="JavaScript"><!--
+lastUpdated();
+// --></SCRIPT>
+</FONT>
+</CENTER>
+
+</BODY>
+</HTML>
